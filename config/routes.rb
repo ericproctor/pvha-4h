@@ -1,9 +1,26 @@
 Pvha4h::Application.routes.draw do
+  get "pages/home"
+  get "pages/meetings"
+  get "pages/join"
+  get "pages/life_skills"
+  get "pages/teens"
+  get "pages/juniors"
+  get "pages/cloverbuds"
+  get "pages/announcements"
+  get "pages/calendar"
+  get "pages/science_fair"
+  get "pages/newsletter"
+  get "pages/projects"
+  get "pages/workshops"
+  get "pages/forms"
+  get "pages/contact_us"
+  get "pages/links"
+  get "pages/photos"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+ root 'pages#home'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
